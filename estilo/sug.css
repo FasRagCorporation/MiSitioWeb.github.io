@@ -1,0 +1,134 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulos_header {
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+    mar-gin-top: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Palatino Linotype';
+    font-size: 55px;
+}
+h1 {
+    font-family: 'Palatino Linotype';
+    font-size: 55px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Palatino Linotype';
+}
+
+.f {
+    width:400px;
+    
+}
+   
+nav {
+    background: red;
+}
+.validacion {
+    font-family:'Palatino Linotype';
+    color:red;
+    font-size:15px;
+}
+
+#div_nav {
+    width: 15%;
+    height: 40px;
+    float: left;
+    background-color: red;
+    /*border: 1px solid black;*/
+}
+
+#div_mar {
+    width: 85%;
+    height: 40px;
+    float: left;
+    background-color: red;
+    font-family: 'Palatino Linotype';
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.img {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+
+.img2 {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+/*Estilo Menu de Navegacion*/
+.menu ul {
+    display: flex;
+    list-style: none;
+    font-family: 'Palatino Linotype';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu a {
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: purple;
+    text-decoration: none;
+    color: white;
+}
+
+    .menu a:hover {
+        background-color: palevioletred;
+    }
+
+
+form {
+    font-family: 'Palatino Linotype';
+    font-size: 20px;
+    font-weight: bold;
+    align-content: center;
+}
+      
+table {
+    margin: 1px auto;
+    width: 400px;
+}
+
+aside {
+    align-content: center;
+    background-color: red;
+    width: 15%;
+    float: left;
+    height: 600px;
+}
+
+
+.aside2 {
+    background-color: red;
+    width: 15%;
+    float: right;
+    height: 600px;
+}
+
+p {
+    font-family: 'Palatino Linotype';
+    text-align:center;
+
+}
+

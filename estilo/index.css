@@ -1,0 +1,225 @@
+﻿* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-family: 'Palatino Linotype';
+	font-size: 55px;
+	text-align: center;
+}
+
+.h2 {
+	font-family: 'Palatino Linotype';
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 2px 5px white;
+}
+
+h3 {
+	font-family: 'Palatino Linotype';
+}
+
+.p {
+	text-align:center;
+	font-family: 'Palatino Linotype';
+}
+
+
+.img {
+	float: right;
+	width: 35px;
+	height: 35px;
+	margin: 5px;
+}
+
+.Img {
+	float: left;
+	width: 35px;
+	height: 35px;
+	margin: 5px;
+	border-radius: 30px;
+}
+
+#img_opi {
+	float: right;
+	margin: 5px;
+	height: 35px;
+	width:35px;
+}
+
+nav {
+	background: red;
+	
+}
+
+/*Estilo Menu de Navegacion*/
+.menu ul {
+	display: flex;
+	list-style: none;
+	font-family: 'Palatino Linotype';
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+
+.menu a {
+	display: block;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: purple;
+	text-decoration: none;
+	color: white;
+	
+}
+
+	.menu a:hover {
+		background-color: palevioletred;
+	}
+
+#div_nav {
+	width: 15%;
+	height: 40px;
+	float: left;
+	background-color: red;
+	/*border: 1px solid black;*/
+}
+
+#div_mar {
+	width: 85%;
+	height: 40px;
+	float: left;
+	background-color: red;
+	font-family: 'Palatino Linotype';
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+}
+
+/*Diseño seccion aside*/
+aside {
+	align-content:center;
+	background-color: red;
+	width: 15%;
+	float: left;
+	height: 1460px;
+}
+
+
+	aside ul li {
+		padding: 5px;
+	}
+
+.aside2 {
+	background-color: red;
+	width: 15%;
+	float: right;
+	height: 1475px;
+}
+
+.img_aside {
+	border-radius: 10px 10px 10px;
+	border: 1px solid DarkRed;
+	box-shadow: 5px 5px 5px DarkRed;
+	
+}
+
+/*Diseño a section*/
+section {
+	background-color: whitesmoke;
+	height: 1500px;
+	/*border: 1px solid black;*/
+}
+
+#h2_section {
+	font-family: 'Palatino Linotype';
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 2px 5px white;
+}
+
+table {
+	margin: 0px auto;
+	background-color: black;
+}
+
+.img_table {
+	border-radius: 5px;
+	border: 5px solid red;
+}
+
+.ima_table td, img:hover {
+	border: 5px solid black;
+}
+footer
+{
+	clear: both;
+	background-color: darkred;
+	color: darkred;
+	padding: 0px;
+	margin: 0px;
+}
+
+#div_contacto {
+	background-color: darkred;
+	color: white;
+	font-family: 'Palatino Linotype';
+	font-size: 14px;
+	width: 50%;
+	height: 140px;
+	float: left;
+	border: 1px solid white;
+}
+
+
+
+#div_form {
+	background-color: darkred;
+	color: white;
+	font-family: 'Palatino Linotype';
+	width: 49.8%;
+	height: 140px;
+	float:left;
+		
+}
+
+
+input, textarea {
+	background: white;
+	color: black;
+	font-family: 'Palatino Linotype';
+	font-size: 13px;
+	font-weight: bold;
+	border-style: inset;
+	width: 600px;
+	border-radius: 5px;
+	border: 2px solid white;
+	margin: 2px;
+	padding: 2px;
+}
+
+button {
+	background-color: white;
+	color: black;
+	font-family: 'Palatino Linotype';
+	font-weight: bold;
+	padding: 5px 12px;
+	width: 600px;
+}
+
+	button:hover {
+		background-color: black;
+		color: white;
+	}
+
+.ancla {
+	font-family: 'Palatino Linotype';
+	color: white;
+	font-weight: bold;
+}
+
+	.ancla:visited {
+		color: red;
+	}
